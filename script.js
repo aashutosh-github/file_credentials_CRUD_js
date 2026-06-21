@@ -163,20 +163,20 @@ async function sendSystemInfo(url) {
 function printHelp() {
   console.log(`
 Usage:
-  node Practice/script.js info
-  node Practice/script.js send <url>
-  node Practice/script.js create <file> <content>
-  node Practice/script.js read <file>
-  node Practice/script.js update <file> <content>
-  node Practice/script.js delete <file>
+  node script.js info
+  node script.js send <url>
+  node script.js create <file> <content>
+  node script.js read <file>
+  node script.js update <file> <content>
+  node script.js delete <file>
 
 Examples:
-  node Practice/script.js info
-  node Practice/script.js send https://example.com/collect
-  node Practice/script.js create Practice/demo.js "console.log('Hello');"
-  node Practice/script.js read Practice/demo.js
-  node Practice/script.js update Practice/demo.js "console.log('Updated');"
-  node Practice/script.js delete Practice/demo.js
+  node script.js info
+  node script.js send https://example.com/collect
+  node script.js create demo.js "console.log('Hello');"
+  node script.js read demo.js
+  node script.js update demo.js "console.log('Updated');"
+  node script.js delete demo.js
 `);
 }
 

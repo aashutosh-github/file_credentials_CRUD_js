@@ -79,11 +79,7 @@ Allowed extensions include:
 
 ## Commands
 
-Run these commands from the project folder after cloning or downloading the repository:
-
-```bash
-cd ./
-```
+Open a terminal in this folder after cloning or downloading the repository, then run these commands.
 
 ### Show system information
 
